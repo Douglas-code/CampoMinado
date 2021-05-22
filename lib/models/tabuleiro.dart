@@ -17,6 +17,7 @@ class Tabuleiro {
   }) {
     _criarCampos();
     _relacionarVizinhos();
+    reiniciar();
   }
 
   void reiniciar() {
